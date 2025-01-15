@@ -1,4 +1,9 @@
-# Right Triangle star pattern
+'''  *
+    **
+   ***
+  ****
+ ***** '''
+# left Triangle star pattern
 def pattern(n):
     for i in range(n):
         #To print spaces
@@ -9,5 +14,5 @@ def pattern(n):
         # To print in next line
         print()
 
-n=5
+n=7
 pattern(n)
